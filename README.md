@@ -3,6 +3,11 @@ Send a notification or open an application for all Xorg users on the machine
 
 **TODO:** Pending to extend this README
 
+## Requirements
+This script requieres following applications to work:
+- zenity
+- wmctrl
+
 ## Installation
 
 You can use make to install this script into machine sbin.
