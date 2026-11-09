@@ -246,7 +246,7 @@ printHelp () {
   echo "     --info          Print an info dialog"
   echo "     --custom        Invoke a custom app"
   echo
-  echo "Parameters for --warning <title> <msg> [onTop]"
+  echo "Parameters for --warning <title> <msg>"
   echo "  title    Is the title of the warning window"
   echo "  msg      Is the message of the warning window"
   echo
