@@ -31,7 +31,7 @@ uninstall:
 	@if [ -n "$(wildcard $(TARGETS))" ]; then \
 		echo "Removing scripts from bin directory"; \
 		echo "rm $(wildcard $(TARGETS))";\
-		rm $(wildcard $(TARGETS));\
+		sudo rm $(wildcard $(TARGETS));\
 	else \
 		echo "No installed scripts found"; \
 	fi
